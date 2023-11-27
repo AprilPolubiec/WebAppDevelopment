@@ -1,0 +1,44 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#book-container {
+  display: flex;
+  width: 95vw;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+#book-container .book {
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 14px;
+}
+
+h3 {
+    margin : 0;
+    font-size: 12px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+p {
+    font-size: 10px;
+}

@@ -1,0 +1,50 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#book-container {
+  display: flex;
+  width: 95vw;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+#book-container .book {
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid pink;
+  overflow: hidden;
+  text-align: center;
+  background-color: blanchedalmond;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    text-decoration: blue wavy underline;
+    color: blue;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+h2 {
+    color:pink;
+    margin: 0;
+    font-size: 14px;
+}
+
+h3 {
+    color:brown;
+    margin : 0;
+    font-size: 12px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+p {
+    font-size: 10px;
+}
